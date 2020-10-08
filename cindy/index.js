@@ -34,6 +34,15 @@ console.log(typeof number22);
 //30;
 //939;
 //40.9;
-let testNumber = 42;
-let isEven = testNumber % 2 == 0 ? "is even" : "is odd";
-console.log(testNumber + " " + isEven);
+let num3 = 30;
+let num4 = 939;
+let num5 = 40.9;
+
+let evenNum1 = num3 % 2 ? "is odd" : "is even";
+console.log(num3, evenNum1);
+
+let evenNum2 = num4 % 2 ? "is odd" : "is even";
+console.log(num4, evenNum2);
+
+let evenNum3 = num5 % 2 ? "is odd" : "is even";
+console.log(num5, evenNum3);
