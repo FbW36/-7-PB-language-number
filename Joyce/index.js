@@ -12,14 +12,15 @@ let value2 = "10.05";
 console.log(parseFloat(value2));
 
 // 3
-let isEven1 = 30;
-let checkEven1 = isEven1 == 30 ? "30 is even" : "it is odd";
-console.log(checkEven1);
+let num1 = 30;
+let num2 = 939;
+let num3 = 40.9;
 
-let isEven2 = 939;
-let checkEven2 = isEven2 == 30 ? "30 is even" : "it is odd";
-console.log(checkEven2);
+let isEven1 = num1 % 2 ? "is odd" : "is even";
+console.log(isEven1);
 
-let isEven3 = 40.9;
-let checkEven3 = isEven3 == 30 ? "30 is even" : "it is odd";
-console.log(checkEven3);
+let isEven2 = num2 % 2 ? "is odd" : "is even";
+console.log(isEven2);
+
+let isEven3 = num3 % 2 ? "is odd" : "is even";
+console.log(isEven3);
