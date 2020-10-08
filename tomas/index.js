@@ -16,6 +16,15 @@ num2 = parseFloat(num2);
 console.log(num2);
 
 // Check if the following numbers are even numbers. Use a ternary and if the number is even print 30 is even, else print that it is odd
-let n = 40.9;
-let checkNumber = n % 2 == 0 ? "30 is even" : "number is odd";
-console.log(checkNumber);
+let num3 = 30;
+let num4 = 939;
+let num5 = 40.9;
+
+let evenNum1 = num3 % 2 ? "is odd" : "is even";
+console.log(num3, evenNum1);
+
+let evenNum2 = num4 % 2 ? "is odd" : "is even";
+console.log(num4, evenNum2);
+
+let evenNum3 = num5 % 2 ? "is odd" : "is even";
+console.log(num5, evenNum3);
