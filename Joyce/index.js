@@ -17,10 +17,10 @@ let num2 = 939;
 let num3 = 40.9;
 
 let isEven1 = num1 % 2 ? "is odd" : "is even";
-console.log(isEven1);
+console.log(num1, isEven1);
 
 let isEven2 = num2 % 2 ? "is odd" : "is even";
-console.log(isEven2);
+console.log(num2, isEven2);
 
 let isEven3 = num3 % 2 ? "is odd" : "is even";
-console.log(isEven3);
+console.log(num3, isEven3);
